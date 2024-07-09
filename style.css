@@ -1,1 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f3ff;
+    color: #006400;
+}
 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 100, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #008080;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #00ced1;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #20b2aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008b8b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e0ffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.purchased {
+    text-decoration: line-through;
+    background-color: #98fb98;
+}
+
+.edit-input {
+    width: 60%;
+    padding: 5px;
+    margin-right: 5px;
+}
